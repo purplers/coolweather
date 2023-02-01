@@ -1,12 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <litepal>
+    <dbname value="demo" />
 
-    <dbname vaule="cool_weather"/>
-
-    <version value="1"/>
+    <version value="1" />
 
     <list>
-        <mapping class="com.assessment.android.db.Province"/>
-        <mapping class="com.assessment.android.db.City"/>
-        <mapping class="com.assessment.android.db.County"/>
+        <mapping class="com.example.assessment.db.Province"/>
+        <mapping class="com.example.assessment.db.City"/>
+        <mapping class="com.example.assessment.db.County"/>
     </list>
+
 </litepal>
